@@ -2,7 +2,7 @@ const todoList = document.getElementById("todoList");
 const newTodoInput = document.getElementById("newToDoInput");
 const addTodoBtn = document.getElementById("addTodoBtn");
 
-addTodoBtn.addEventListener("click", () => {
+addTodoBtn.addEventListener("click", function ()( {
   const newTodoText = newTodoInput.value;
 
   if (newTodoText !== "") {
