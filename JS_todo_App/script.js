@@ -1,24 +1,27 @@
-function addtask(){
-    const taskinput = document.getElementById('tasktext');
-    const tasktext = taskinput.value.trim();
-    if (tasktext !== ''){
-        const taskList = document.getElementById('tasks');
-        const ckeckbox = document.getElementById('checkbox');
-        const Newtask = document.createElement('h1');
-        Newtask.textContent = tasktext;
-        taskList.appendChild(Newtask);
-        taskinput.value = '';
-        checkbox.addEventListener('change', function(){
-        if(this.checked){
-            taskList.style.textDecoration = 'line-through';
-        }       
-        else {
-            taskList.style.textDecoration = 'none'  
-        }
-        
-        })
-    }
-    else{
-        alert('please Enter A task!')
-    }
-}
+const todoList = document.getElementById("todoList");
+const newTodoInput = document.getElementById("newToDoInput");
+const addTodoBtn = document.getElementById("addTodoBtn");
+
+addTodoBtn.addEventListener("click", () => {
+  const newTodoText = newTodoInput.value;
+
+  if (newTodoText !== "") {
+    const newTodoItem = document.createElement("ul");
+    newTodoItem.innerText = newTodoText;
+    const strikebox = document.createElement("input");
+    strikebox.type = "checkbox";
+
+    strikebox.classList.add("strikebox");
+    strikebox.addEventListener("change", function () {
+      if (this.checked) {
+        newTodoItem.style.textDecoration = "line-through";
+      } else {
+        newTodoItem.style.textDecoration = "none";
+      }
+    });
+
+    newTodoItem.appendChild(strikebox);
+    todoList.appendChild(newTodoItem);
+    newTodoInput.value = "";
+  }
+});
