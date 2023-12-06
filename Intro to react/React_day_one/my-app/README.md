@@ -1,2 +1,2 @@
-#GDSC React Applicatio Repo
-Assignment 1 : Using .map() </br>
+# GDSC Assignment Repository
+Using .Map()Functoion</br>
