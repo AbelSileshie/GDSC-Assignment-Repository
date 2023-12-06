@@ -1,2 +1,2 @@
-# GDSC Assignment Repository
+# GDSC React Assignment Repository
 Using .Map()Functoion</br>
