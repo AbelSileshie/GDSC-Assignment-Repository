@@ -5,7 +5,7 @@ export const Greetins = () => {
 const num2x = num.map((n)=>n);
   return (
 <div>
-    <h1 className="Header">{num2x}</h1>
+    <h1 className="Header"><br/>{num2x}</h1>
 </div>
     )
 }
