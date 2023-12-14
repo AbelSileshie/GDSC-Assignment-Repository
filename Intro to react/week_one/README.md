@@ -1,4 +1,3 @@
-# GDSC React Assignment Repository
+# GDSC React Assignment Week One
 
-Using .Map()Functoion</br>
-Building Advanced Todo App</br>
+Using .Map()Functoion by doing it in another component in same folder and accessing it in another folder</br>
