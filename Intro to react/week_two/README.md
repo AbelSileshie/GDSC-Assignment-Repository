@@ -1,3 +1,3 @@
-# GDSC React Assignment Week One
+# GDSC React Props And State Variables Excercise
 
-Week Two Class Assignment</br>
+Properties And State Variables</br>
