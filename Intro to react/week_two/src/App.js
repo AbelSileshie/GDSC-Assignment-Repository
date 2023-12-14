@@ -1,17 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
-import "./Map_function/Mapf.css";
-import "./Navbar/Navbar.css";
-import { Greetins } from "./Greetins";
-import { Mapf } from "./Map_function/Mapf";
 import { Navbar } from "./Navbar/Navbar";
+import "./Counter/Counter";
+import { Counter } from "./Counter/Counter";
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1 className="Title">Higer Order Functions Using .map Function</h1>
-      <Greetins />
-      <Mapf />
+      <h1 className="Title">Counter Application Using useState</h1>
+    <Counter/>
     </div>
   );
 }
