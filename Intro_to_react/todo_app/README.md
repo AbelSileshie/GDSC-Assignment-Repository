@@ -1,3 +1,6 @@
 ## GDSC React Todo Application Assignment
 
-Interactive Todo Application with Add Delete And Edit Capabilites with interactive User interface</br>
+## Bootstrap ReactStrap
+
+Interactive Todo Application With Edit Capabilities And Interactive UI
+</br>
