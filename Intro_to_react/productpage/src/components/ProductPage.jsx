@@ -56,12 +56,8 @@ const ProductPage = () => {
           <h1 className="text-3xl font-bold">Nike Jordan 4 Limited Edition</h1>
         </div>
         <p className="text-gray-700">
-          Con un'ammortizzazione incredibile per sostenerti in tutti i tuoi
-          chilometri, Invincible 3 offre un livello di comfort elevatissimo
-          sotto il piede per aiutarti a dare il massimo oggi, domani e oltre.
-          Questo modello incredibilmente elastico e sostenitivo, è pensato per
-          dare il massimo lungo il tuo percorso preferito e fare ritorno a casa
-          carico di energia, in attesa della prossima corsa.
+          This is a limited Edition Jordan 4 which are verry liked by many
+          Fashion People
         </p>
         <h6 className="text-2xl font-semibold">$ 500</h6>
         <div className="flex flex-row items-center gap-12">
