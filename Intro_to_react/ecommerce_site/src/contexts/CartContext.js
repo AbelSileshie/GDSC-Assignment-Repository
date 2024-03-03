@@ -1,7 +1,11 @@
 import React from 'react';
 
 const CartContext = () => {
-  return <div>CartContext</div>;
+    return (
+        <div>
+          
+        </div>
+    );
 };
 
 export default CartContext;

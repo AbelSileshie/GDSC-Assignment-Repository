@@ -1,7 +1,11 @@
 import React from 'react';
 
 const ProductContext = () => {
-  return <div>ProductContext</div>;
+    return (
+        <div>
+          
+        </div>
+    );
 };
 
 export default ProductContext;

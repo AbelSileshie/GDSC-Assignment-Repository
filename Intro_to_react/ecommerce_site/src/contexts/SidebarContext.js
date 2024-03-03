@@ -1,7 +1,11 @@
 import React from 'react';
 
 const SidebarContext = () => {
-  return <div>SidebarContext</div>;
+    return (
+        <div>
+          
+        </div>
+    );
 };
 
 export default SidebarContext;
